@@ -1,8 +1,3 @@
-:root{
-    background-color: #f9dbf4;
-    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-}
-
 .logo{
     display:flex;
     justify-content: center;
@@ -31,7 +26,7 @@
     margin: 5% 10%;
 }
 
-.pink-font{
+.orkut-font-color{
     color: #fb31d9;
 }
 
@@ -68,19 +63,17 @@
     margin-bottom: 10%;
 }
 
-.btn_login{
+#btn_login{
     width: 100%;
     border: none;
-    background-color: #fb31d9;
     color: #f9dbf4;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10%;
-    cursor: pointer;
 }
 
-.btn_login:hover{
+#btn_login:hover{
     background-color: bisque;
     color: black;
     font-weight: bold;
