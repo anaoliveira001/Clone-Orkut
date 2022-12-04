@@ -68,15 +68,22 @@
     margin-bottom: 10%;
 }
 
-#btn_login{
+.btn_login{
     width: 100%;
     border: none;
     background-color: #fb31d9;
     color: #f9dbf4;
+    font-weight: bold;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10%;
     cursor: pointer;
+}
+
+.btn_login:hover{
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
 }
 
 .fields_recovery > a, .fields_create > a{
@@ -95,4 +102,5 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
+    margin-top: 20px;
 }
