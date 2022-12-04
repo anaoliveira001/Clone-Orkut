@@ -1,0 +1,18 @@
+@media screen and (min-width:650px) {
+    .container{
+        margin-top: 20px;
+    }
+
+    #fields_title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fields_textbox > input{
+        height: 60px;
+    }
+
+    .fields_recovery{
+        margin-bottom: 20px;
+    }
+}
