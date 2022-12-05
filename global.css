@@ -11,3 +11,13 @@
     background-color: #fb31d9;
     cursor: pointer;
 }
+
+.orkut-default{
+    color: #cd7abf;
+}
+
+.orkut-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

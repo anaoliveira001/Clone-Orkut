@@ -4,14 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon LINK-->
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <!--Global Configurations-->
     <link rel="stylesheet" href="/global.css">
+    <!--RESET Configurations-->
     <link rel="stylesheet" href="/reset.css">
+    <!--LINK CSS-->
     <link rel="stylesheet" href="/CSS/Profile/profile.css">
+    <!--LINK CSS-->
     <link rel="stylesheet" href="/CSS/Profile/profile-responsive.css">
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/3d3a2feb81.js" crossorigin="anonymous"></script>
     <title>Profile</title>
 </head>
 <body>
-    
+    <header class="menu orkut-button-bg">
+        <nav>
+            <div id="title">
+                <h1>ORKUT</h1>
+            </div>
+            <div id="hamburguer">
+                <label for="">&#9776;</label>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <aside class="photo">
+            <div class="photo_avatar">
+                <img 
+                    width="250px"
+                    height="250px"
+                    src="/images/Avatar.png" 
+                    alt="Avatar Profile"
+                >
+            </div>
+            <div class="photo_name orkut-font-color">
+                <h1>Ana Oliveira</h1>
+            </div>
+            <div class="photo_tools">
+                <div class="photo_tools_messages">
+                    <i class="fa-solid fa-envelope orkut-default"></i>
+                    <a href="#" class="orkut-link">Scraps</a>
+                </div>
+                <div class="photo_tools_edit">
+                    <i class="fa-solid fa-pen-fancy orkut-default"></i>
+                    <a href="#" class="orkut-link">Edit your Profile</a>
+                </div>
+
+                <div class="photo_tools_gallery orkut-default">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <a href="#" class="orkut-link">Photos</a>
+                </div>
+
+                <div class="photo_tools_depositions orkut-default">
+                    <i class="fa-solid fa-comment"></i>
+                    <a href="#" class="orkut-link">Testimonials</a>
+                </div>
+            </div>
+        </aside>
+        <section class="description"></section>
+        <aside class="counter">
+            <div class="counter_friend"></div>
+            <div class="counter_community"></div>
+        </aside>
+    </main>
 </body>
 </html>
